@@ -1,0 +1,15 @@
+This is a repeated problem of JEE Advanced (world's second toughest exam)
+Its given alpha and beta are the roots of this equation.
+Wait hold on... what is this expression?
+
+Let me find out the roots of the equation and try to substitute that...
+Wait... the roots are complex numbers...
+How on earth am I supposed to solve this problem?
+
+Let's try to substitute alpha and beta in this expression.
+Then the terms can be rearranged a little to take out terms raised to power 8 common.
+Wait... have I seen these somewhere?
+Yeah, its the equation. So I can just substitute alpha squared + 10 into the expression as 6 alpha and same for beta.
+
+That's great... the expression simplified... its just 6... that's option B
+

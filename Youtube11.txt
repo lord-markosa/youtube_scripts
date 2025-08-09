@@ -1,0 +1,81 @@
+Hey Everyone!!
+
+In this problem we are given a complicated square root, and we are not supposed to use calculator.
+
+The only thing we can spot here is its the product of 4 consecutive integers to which one is added and then square root is taken.
+
+Now we can write the product of 4 consecutive numbers as this.
+ where a = average of the two middle terms
+and k = half.
+
+Now we are going to use this instead of the 4 numbers.
+One thing we can see the two middle terms and the two extreme terms are of the form
+x + y times x - y which we can write as x^2 - y^2
+
+Then its simple to observe that the terms now form a kind of quadratic equation structure, which can be evaluated to get this.
+
+Now 9k^4 + 1 can be written as 9 over 16 + 1 as k equals half
+This evaluates to 25 over 16 which can be written as 25k^4.
+
+Now if you observe carefully this expression is nothing but the square of a^2 minus 5k^2.
+As it is of the form x^2 - 2xy + y^2 where x = a^2 and y = 5k^2.
+
+Now we substitute the value of a and k in this to obtain 929.
+
+Which is our answer.
+ 
+=== chatGPT ====
+
+<speak>
+  Hey everyone!!  
+  <break time="500ms"/>
+  
+  In this problem, we’re given a complicated square root —  
+  and we’re told <emphasis level="moderate">not</emphasis> to use a calculator.  
+  <break time="600ms"/>
+  
+  So, what can we do?  
+  <break time="400ms"/>
+  
+  The only pattern we notice is:  
+  it's the <emphasis level="moderate">product of 4 consecutive integers</emphasis>,  
+  then 1 is added,  
+  and finally the <emphasis level="moderate">square root</emphasis> is taken.  
+  <break time="600ms"/>
+  
+  Let’s break it down.  
+  <break time="300ms"/>
+  
+  We can represent the product of 4 consecutive numbers in a smarter way —  
+  let’s say <say-as interpret-as="characters">a</say-as> is the average of the two middle numbers,  
+  and <say-as interpret-as="characters">k</say-as> is half the difference between the terms.  
+  <break time="500ms"/>
+    
+  Now, look closely —  
+  the pairs <say-as interpret-as="characters">A</say-as> minus 3k and <say-as interpret-as="characters">A</say-as> plus 3k forms A^2 - 9K^2,  
+  and <say-as interpret-as="characters">A</say-as> minus K and <say-as interpret-as="characters">A</say-as> plus K forms A^2 - K^2, as x minus y times x + y forms x^2 - y^2.
+  
+  <break time="600ms"/>
+  
+  Now here’s the clever part:  
+  this expression simplifies down to this:
+
+<break time="500ms"/>
+  
+  Now, 9k^4 + 1 becomes:  
+  9 over 16 plus 1 which equals 25 over 16. This can be written as 25k^4  
+  <break time="500ms"/>
+  
+  That gives us:  
+  A^4 - 10 A^2 k^2 + k^4
+  which is a perfect square!  
+  It’s of the form:  
+  x^2 - 2xy + y^2.
+
+  Finally, plug in the values of <say-as interpret-as="characters">A</say-as> and <say-as interpret-as="characters">K</say-as>,  
+  and you get <say-as interpret-as="cardinal">929</say-as>.  
+  <break time="500ms"/>
+  
+  Which is our final answer!  
+</speak>
+

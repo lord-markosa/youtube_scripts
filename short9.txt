@@ -1,0 +1,13 @@
+This is supposably the hardest problem in SAT that you might encounter.
+But is it really?
+
+The value of this highlighted expression is given to be 1 over 3. We need to evaluate x.
+But since this is repeated infinitely, I can claim that this expression would also be 1 over 3.
+Aha!, there we go!
+
+This means square root of x raised to the power one third equals 1 over 3
+
+That means x to the power 1 over 6 is 1 over 3.
+Thus x = 1 over 3^6. This would evaluate to 1 over 729.
+
+Hence, its option D.

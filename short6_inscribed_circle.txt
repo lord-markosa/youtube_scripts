@@ -1,0 +1,21 @@
+This type of question looks really scary but is rather simple if you use this one trick.
+
+The inscribed triangle touches all the 3 triangles and we need to find its radius.
+
+We need to connect the centers by constructing lines.
+
+Let P be the center of the circle on AC, and N be the center of the inscribed circle.
+Lets draw the triangle NCP (which is a right angled triangle).
+
+Now can we determine the sides of this triangle?
+The answer is "YES!".
+
+NP will be the sum of radius of these 2 triangles. That's r + 6.
+CN will be the difference of radius of the outer triangle and the inscribed triangle. That's 12 - r
+PC will be nothing but the radius of the circle on AC. That's 6
+
+Now we can use Pythagoras theorem to write the following equation.
+On solving this we can get r = 4. So, its option B.
+
+
+

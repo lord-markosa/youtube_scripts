@@ -1,0 +1,51 @@
+Do you know why the area of this triangle cannot be 20.
+But since childhood we learnt that area is half base height which comes out to be 20 in this case.
+
+Let's dive a bit deeper into this problem, 
+Let the two sides of the triangle be A and B, as this is a right angled triangle we can use the Pythagorean theorem to write A^2 + B^2 = 8^2 which is equal to 64
+
+Now lets use AM-GM inequality for A^2 and B^2 and we find out the max value of AB would be 32.
+Area of the triangle is half of it, that is 16.
+
+Thus area cannot be 20. Now what is wrong with the information given.
+
+It's just an extra information that spoils the problem.
+If we construct a circle with the base as diameter then all the triangles with the third vertex on the arc will be a right angled triangle and the maximum height that's possible will be equal to the radius. Thus a right angle at the third vertex is not possible with the height of the triangle being 5.
+
+=== chat gpt ====
+
+
+<speak>
+  
+  Do you know why the area of this triangle <emphasis level="moderate">cannot</emphasis> be 20?  
+  <break time="400ms"/>
+  
+  But wait… we know that area is half of base times height and if the base is 8 and height is 5, shouldn't that give 20?  
+  <break time="600ms"/>
+  
+  Let’s dive a bit deeper.  
+  <break time="400ms"/>
+  
+  Suppose the two perpendicular sides of the triangle are <say-as interpret-as="characters">A</say-as> and <say-as interpret-as="characters">B</say-as>.  
+  Using the Pythagorean Theorem,  
+  <say-as interpret-as="characters">A</say-as> squared plus <say-as interpret-as="characters">B</say-as> squared equals 8 squared — that is 64.  
+
+  
+  Now, we use the <emphasis level="moderate">AM-GM Inequality</emphasis> on <say-as interpret-as="characters">A</say-as> squared and <say-as interpret-as="characters">B</say-as> squared,  
+  and we find that the <emphasis level="moderate">maximum value</emphasis> of <say-as interpret-as="characters">AB</say-as> is 32. That makes the <emphasis level="moderate">maximum possible area</emphasis> of the triangle 16.
+  
+  So, the area can <emphasis level="strong">never</emphasis> be 20.  
+  <break time="400ms"/>
+  
+  Now what’s wrong here?  
+  <break time="400ms"/>
+    
+  If we draw a circle with the base as the diameter, then any triangle formed  
+  with the third point on the arc will be a right-angled triangle.  
+  <break time="400ms"/>
+  
+  And in this setup, the <emphasis level="moderate">maximum possible height</emphasis> is the <emphasis level="moderate">radius</emphasis> of the circle — which is 4.  
+  <break time="500ms"/>
+  
+  So that value of 5 just breaks the rules of geometry.  
+</speak>

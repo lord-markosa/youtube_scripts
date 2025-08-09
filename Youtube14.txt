@@ -1,0 +1,73 @@
+Given this 4th degree polynomial, we need to solve for x
+Now, our usual approach of hit and trial would cause us a lot of trouble.
+Instead we are going to observe and find out something special about this polynomial.
+
+If we write down just the coefficients of this polynomial.
+We see that it is symmetric about the middle term.
+
+This leads to a special case.
+Lets first club the similar coefficients term together. Now let's divide the equation by x^2.
+
+Now if we assume x + 1 over x to be y. Then x^2 + 1 over x^2 + 2 = y^2
+Thus, the first part becomes y^2 minus 2 the second part becomes y and the third part is a constant term.
+
+We get a quadratic equation in y.
+
+Hence, solving further we get y = 3 or -5 over 2
+
+Replacing y with x + 1 over x we get two equations
+
+x^2 minus 3x + 1
+and 2x^2 + 5x + 2
+
+Solving the first one we get x = 3 plus minus square root 5 over 2
+Solving the second one we get x = -1 over 2 and x = -2
+
+Thus we obtain all the 4 roots of the equation without any hardship of hit and trial.
+
+=== chat GPT ===
+
+
+
+<speak>
+We’re given a fourth-degree polynomial and asked to solve for X.
+
+Now, normally we might try hit and trial — but that would be painful here.
+
+Instead, let’s observe something interesting.
+
+If we just look at the coefficients, we’ll notice they are symmetric around the middle term.
+
+That’s a special case.
+
+Let’s first rearrange the equation to group terms with the same coefficients, and then divide the entire equation by <say-as interpret-as="characters">x</say-as> squared.
+
+We get this nice equation, which some of you might be familiar with.
+
+To solve this, we assume X plus one over X is equal to Y.
+
+Then, X^2 + 1 over X^2 + 2 = Y^2. Rearrange a bit.
+
+Substituting this in the original equation, we get:
+2Y^2 minus Y minus 15 = 0
+
+Now that’s just a simple quadratic in <say-as interpret-as="characters">y</say-as>.
+
+Factorizing it, we get <say-as interpret-as="characters">y</say-as> equals 3 or minus five over 2.
+
+Case One, for Y = 3:
+
+We replace Y with X plus one over X.
+we get, X^2 minus 3X + 1 = 0.
+Using quadratic formula, we get x = 3 plus minus square root 5 over 2,
+
+And for Case 2: Y = minus five over 2, we get:
+2x^2 + 5x + 2 = 0.
+Factorizing it, we get x = minus one-half, or minus 2.
+
+Thus, the four roots of the polynomial are:
+3 plus or minus square root 5 over 2, minus one-half, and minus 2.
+
+So we’ve found all the roots without any hit and trial.
+</speak>
+

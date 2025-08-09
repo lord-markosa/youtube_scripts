@@ -1,0 +1,165 @@
+In this problem we are asked to find out the limit of this expression
+where this bracket thingy represents the greatest integer function.
+
+To solve this problem we just need to
+A. Be aware of limits (that it exists)
+B. Know what greatest integer function does
+
+First,
+In mathematics, a limit describes the value a function or sequence approaches as its input approaches a certain value.
+
+When an finite valued expression like (sine x over x) reaches some indeterminate form (like 0 over 0), then its possible to resolve its actual value using limits (here it approaches 1).
+
+Second,
+The greatest integer function does exactly the same thing as its name suggest, it finds out the greatest integer that is less than or equal to x.
+
+For example take 1.35 the greatest integer less than or equal to 1.35 is nothing but 1, for -1.35 its -2.
+
+Confused? Lets have any number between two integers, using this function we always bring it back to the closest integer.
+
+Now lets take a look at the graph of this function.
+
+Consider the line y = x to map all points on x axis to the same points on y axis.
+Lets draw some lines parallel to the x-axis through the integer points on y-axis.
+
+Now take any point on y = x, it always falls to the floor — the horizontal line just below it.
+	
+So the line y equals x gets piecewise projected onto these lower horizontal steps.
+
+Thus the line y = x gets piecewise projected onto these lower horizontal floor closest to it.
+
+Finally when we do this for all the points we get a graph like this which looks like a staircase. This is why this kind of function is also known as stepwise function.
+
+This green line is actually y = x minus 1 and illustrates how the function is bounded between y = x and y = x minus 1.
+
+Now, we are going to take this result and apply it to our problem.
+
+greatest integer KX is less than or equal to KX and greater than KX-1
+
+Don't get scared by this expression, its nothing but this inequality summed from k = 1 to n just as in the problem statement.
+
+Taking out x common on both the extreme ends of the inequality, we can write the sum of natural numbers from 0 to n as n times (n+1) over 2. Also the minus 1 when summed up from k = 1 to n becomes 1.
+
+Lets divide the obtained expression by n^2.
+
+Then apply the limits.
+
+Now 1 over n (where n is a large number) becomes 0.
+
+Now we can see the limit is sandwiched between the same value that is x over 2
+
+This implies that the limit is nothing but x over 2.
+
+================ chat gpt =====================
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+
+    In this problem, we are asked to find out the limit of this expression, 
+    where this bracket thingy represents the greatest integer function.
+
+    <break time="400ms"/>
+
+    To solve this problem, we just need to do two things. 
+    <break time="300ms"/>
+    A — Be aware of limits. 
+    <break time="200ms"/>
+    B — Know what the greatest integer function does.
+
+    <break time="500ms"/>
+
+    First — in mathematics, a limit describes the value a function or sequence approaches as its input approaches a certain value.
+
+    <break time="400ms"/>
+
+    When a finite-valued expression, like sine x over x, reaches an indeterminate form like zero over zero, 
+    it's still possible to find its actual value using limits. 
+    <break time="300ms"/>
+    In this case, it approaches one.
+
+    <break time="500ms"/>
+
+    Second — the greatest integer function does exactly what its name suggests. 
+    It finds the greatest integer less than or equal to x.
+
+    <break time="300ms"/>
+
+    For example, the greatest integer less than or equal to one point three five is one. 
+    For negative one point three five, it’s negative two.
+
+    <break time="500ms"/>
+
+    Confused? <break time="200ms"/> Let’s clear it up.
+
+    <break time="300ms"/>
+
+    Take any number between two integers — using this function, we always bring it back to the closest integer below it.
+
+    <break time="400ms"/>
+
+    Now, let’s take a look at the graph of this function.
+
+    <break time="300ms"/>
+
+    Consider the line y equals x, which maps all x values to the same points on the y-axis.
+
+    <break time="300ms"/>
+
+    Now draw lines parallel to the x-axis through the integer points on the y-axis.
+
+    <break time="300ms"/>
+
+    Take any point on the line y equals x — it always drops to the floor, 
+    landing on the horizontal line just below it.
+
+    <break time="400ms"/>
+
+    So the line y equals x gets piecewise projected onto these lower horizontal steps.
+
+    <break time="300ms"/>
+
+    When we repeat this for all points, the graph starts to look like a staircase.
+
+    <break time="300ms"/>
+
+    That’s why this function is also known as a stepwise function.
+
+    <break time="400ms"/>
+
+    This green line — y equals x minus 1 — helps illustrate that the function is always bounded between y equals x and y equals x minus 1.
+
+    <break time="600ms"/>
+
+    Now, let’s apply this idea to our problem.
+
+    <break time="300ms"/>
+
+    The greatest integer of k times x is less than or equal to k x, 
+    and greater than k x minus 1.
+
+    <break time="400ms"/>
+
+    Don’t get scared by the expression — it’s just this inequality summed from k equals 1 to n, just as in the problem statement.
+
+    <break time="500ms"/>
+
+    Taking x common on both ends of the inequality, we can write the sum of natural numbers from 1 to n as n times n plus 1 over 2. 
+    And the minus one, when summed from k equals 1 to n, becomes n.
+
+    <break time="500ms"/>
+
+    Now, divide the entire expression by n squared, and apply the limits.
+
+    <break time="400ms"/>
+
+    As n becomes very large, one over n tends to zero.
+
+    <break time="300ms"/>
+
+    Now we can see — the entire limit is sandwiched between two values that both approach x over 2.
+
+    <break time="400ms"/>
+
+    This implies that the final answer is simply — <emphasis>x over 2</emphasis>.
+
+  </voice>
+</speak>

@@ -1,0 +1,59 @@
+In this problem we are given this functional equation and need to determine the real valued function x for all x, y belongs to R.
+
+Here we don't want 2 variables in this equation, so we need to remove either x or y.
+If we substitute x = y, then it doesn't lead to any simplification.
+So without the loss of generality we can substitute x = F of y such that the first composite term becomes a constant F of 0.
+
+After a little bit of simplification, we obtain F of x as this quadratic function.
+
+To determine the value of F of 0, we now substitute x = 0, in this equation.
+
+This equation simplifies to F of 0 equals 1.
+
+Now substituting it back in the equation, we obtain F of x is nothing but 1 minus x^2 over 2. This result will satisfy the given functional equation.
+
+And hence its our answer.
+
+==== chat gpt ====
+
+
+<speak>
+  In this problem, we’re given a functional equation  
+  and asked to find the real-valued function f of x  
+  for all real numbers x and y.  
+  <break time="500ms"/>
+
+  Now, notice — the equation contains <emphasis level="moderate">two variables</emphasis>.  
+  And in problems like this, our first goal is usually to simplify it by removing one of them.  
+  <break time="600ms"/>
+
+  Trying x equals y doesn’t help simplify the expression.  
+  So instead, let’s try a more clever substitution.  
+  <break time="500ms"/>
+
+  We’ll substitute x equals f of y.  
+  This makes the first term in the equation become  
+  f of f(y) minus f(y),  
+  which is just f of 0 — a constant!  
+  <break time="600ms"/>
+
+  Now the equation simplifies quite a bit.  
+  We do a little algebra…  
+  and eventually we get f of x as a quadratic expression in x.  
+  <break time="500ms"/>
+
+  But we still don’t know the value of f of 0.  
+  <break time="400ms"/>
+
+  So now, substitute x equals 0 into the original functional equation and solve.  
+  This gives us f of 0 equals 1.  
+  <break time="500ms"/>
+
+  Plugging this back into our simplified quadratic expression,  
+  we get:  
+  f of x equals 1 minus x squared over 2.  
+  <break time="500ms"/>
+
+  We can verify this function satisfies the original equation —  
+  and that makes it our final answer.  
+</speak>

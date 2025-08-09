@@ -1,0 +1,86 @@
+Hey Everyone!
+
+The problem you saw in the thumbnail is a really simple one. Its a differential equation but is not in the normal form that we usually encounter. Let's tone it down to what we know by taking natural logarithm on both the sides.
+
+Now we know that in logarithm the power of the argument can come outside of it. 
+
+Thus we can write this expression. Let's rearrange this, Ahhaaa this is something we are familiar with and can be integrated.
+
+Next, we are going to use integration by parts. A little bit on this. It actually comes from the product rule of differentiation. Here u, v are some function of x. We can rearrange this a little bit and integrate both the sides. To get this result. Now we take something easily integrable to be DV.
+
+So Let U = LN x this implies DU = 1 over X times DX.
+Let DV = dx this implies V = X (just integrating)
+
+Thus using the by-parts formula we can write:
+
+integration of LN X DX = gives us UV that is X LN X minus integration of X times 1 over X which is nothing but 1.
+Thus we get integration of X LN X - X.
+
+Finally we can integrate LN Y in the same manner to get this final expression. Here C is the integration constant.
+
+
+==== chat GPT ====
+
+
+<speak>
+  Hey everyone!
+  
+  The problem you saw in the thumbnail might <emphasis level="moderate">look</emphasis> complicated at first glance —
+  but it’s actually quite simple once we break it down.
+
+  It’s a differential equation but not in the standard form we’re used to seeing.
+
+  Let’s simplify it by taking the <emphasis level="moderate">natural logarithm</emphasis> on both sides.  
+  That’s always a great trick when you see powers involved!
+
+  Now, remember a property of logarithms:  
+  When something is raised to a power, that power can come out in front.
+
+  Using that, we rewrite the equation —
+  and suddenly it looks much more familiar!
+
+  At this point, it's ready to be integrated.
+
+  But wait — the integral we have now calls for a special technique:  
+  <break time="400ms"/>
+  <emphasis level="strong">Integration by parts.</emphasis>
+
+  Let’s take a quick detour and recall where this comes from.  
+  It actually originates from the <emphasis level="moderate">product rule</emphasis> of differentiation.
+
+  Where <say-as interpret-as="characters">u</say-as> and <say-as interpret-as="characters">v</say-as> are two functions of x.
+
+  We can integrate both sides of this equation and rearrange a little bit to get the <emphasis level="moderate">integration by parts</emphasis> formula.
+
+  Now let’s apply it.
+
+  We choose:
+  <break time="300ms"/>
+  U equals <say-as interpret-as="characters">l n x</say-as>,  
+  which gives us d u equals one over x d x
+
+  d v equals d x  
+  which integrates to v equals x
+
+  Plugging everything into the formula:
+
+  The integral of <say-as interpret-as="characters">l n x</say-as> d x is  
+  u times v minus the integral of v times d u
+
+  That gives us:  
+  x ln x minus the integral of x times one over x  
+  which simplifies to just 1
+
+  So, we have:  
+  x ln x minus x
+
+  That’s the integral of <say-as interpret-as="characters">l n x</say-as> d x — nice and clean.
+
+  Now, we apply the same logic to integrate <say-as interpret-as="characters">l n y</say-as>,  
+  and we arrive at the final expression.
+
+  And don’t forget — we add <emphasis level="moderate">C</emphasis>,  
+  the constant of integration, at the end.
+</speak>
+
+

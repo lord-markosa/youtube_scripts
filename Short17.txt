@@ -1,0 +1,33 @@
+Most of the times we deviate from what is being asked in the question.
+
+In this problem we are given 2 shaded region and asked to select the correct option.
+Students often start to calculate the area, but if we observe the options carefully, we just need to find the relation between the areas A1 and A2.
+
+A1 can be expressed as Area of the large quarter circle minus Area of 2 smaller semicircles and we add the area A2 which was subtracted twice.
+
+Now assuming the radius of the quarter circle to be R.
+
+We can write the following.
+
+And notice area of the quarter circle and the two semicircle gets cancelled out which implies A1 equals A2.
+Thus option C is correct.
+
+==== chat gpt ====
+
+
+<speak>
+ Most of the times we deviate from what is being asked in the question.
+
+In this problem we are given 2 shaded region and asked to select the correct option. At this point, students often rush into calculations. If we focus on the options, it would become apparent that we don't need to compute these areas but instead obtain a relationship between them.
+
+  Area <say-as interpret-as="characters">A1</say-as> can be expressed as Area of the large quarter circle minus Area of the 2 smaller semicircles, but since <say-as interpret-as="characters">A2</say-as> was subtracted twice, we add it back once.
+
+  Now, assume the radius of the large quarter circle is <say-as interpret-as="characters">R</say-as>.
+
+  We can write the following.
+
+  When we simplify, area of the quarter circle and the two semicircle gets cancelled out.
+Finally we get <say-as interpret-as="characters">A1</say-as> equals <say-as interpret-as="characters">A2</say-as>.
+
+  So, the correct answer is option <say-as interpret-as="characters">C</say-as>.
+</speak>

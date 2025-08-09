@@ -1,0 +1,12 @@
+Are you good with percentages?
+Lets find out!
+
+Given, the side of a cube is decreased by 20%. We need to find out the percent decrease in its Surface Area.
+
+We just need to know that Surface area is proportional to A^2, where A is the side length of the cube.
+The new A = 0.8 times original A.
+Thus new A^2 will be equal to 0.64 times original A^2.
+decrease percent would be (1-0.64) times 100, since A is going to get cancelled out in percent calculation.
+Thus the Surface area would decrease by 36%.
+
+Hence its option B.

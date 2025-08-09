@@ -1,0 +1,11 @@
+This one trick is going to help you in all the exams.
+
+Lets say you want to find out the answer to this question in 10 to 15 seconds.
+
+Now focus that you just need to select an option that's correct not calculate the exact value of 73^2 + 74^2.
+
+Now, you have 5 options which are really close but there is one noticeable pattern, all the options have different unit digit.
+
+That's it. you want to compute the unit digit of 73^2 + 74^2 which would be same as the unit digit of 3^2+4^2. So the unit digit would be 5.
+
+That's option E.

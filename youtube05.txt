@@ -1,0 +1,94 @@
+Hi everyone, today we are going to solve another exciting problem. This problem is really simple but we are here to see this amazing solution that is very difficult to figure out for these scenarios.
+
+We are given a semi circle with radius R and a triangle with base as the diameter of the semi circle and the third point on the arc. We need to find the possible maximum area among all such triangles.
+
+Let's first look at the naive solution.
+
+Now, before we begin, we need to understand that triangles on the same base with same height will have the same area. Here the third vertex lies on the dashed line which is parallel to the base of the triangle, so all such triangles will have the same area.
+
+Thus among all triangles which has base on the diameter of the circle will have the maximum area when the height will be maximum. The maximum possible height is R. Which means the maximum area would be half into 2R into R which is R^2.
+
+Okay that was simple enough.
+
+Before we begin with the amazing solution we need to 2 simple things.
+First, Arithmetic mean is the average of n numbers.
+Geometric mean is the nth root of product of n numbers.
+
+The AM GM inequality states that Arithmetic mean is greater than or equal to the Geometric mean for all positive real numbers. We are not going to dive into the details of the proof but simply going to use it here.
+
+Second, A triangle inscribed in a semi circle will be a right angled triangle. As the angle subtended at the arc is half the angle subtended at the center which is a property of a circle.
+
+Now we can consider A1 = A^2 and A2 = B^2 and apply the AM GM inequality for these two numbers.
+
+We get (A^2 + B^2)/2 is greater than equal to square root of (A^2 times B^2).
+Now an important thing to note is that for a right angled triangle A^2 + B^2 is nothing but the hypotenuse square which is 4R^2.
+
+Thus we get AB is less than equal to 2R^2.
+
+Area of the triangle is half AB which would be less than R^2.
+
+Hence the max area of the triangle would be R^2.
+
+Thus A^2 
+
+
+============ chat gpt ==========
+
+Hey everyone! Buckle up, because today we’re going to solve a deceptively simple problem that hides an unexpectedly brilliant solution.
+
+On the surface, it looks easy—like, “oh yeah, I’ve totally got this”—but just wait till you see the sneaky trick behind it.
+
+So here’s the setup:
+We’ve got a semicircle with radius R, and we’re looking at triangles that sit inside this semicircle. The base of the triangle is the diameter of the semicircle (fancy, huh?), and the third point of the triangle is anywhere on the arc. Our mission, should we choose to accept it: Find the maximum possible area of such a triangle.
+
+First, let’s go the naive route—you know,
+
+Remember this basic geometry fact:
+
+Triangles with the same base and the same height will always have the same area.
+
+Now, the third vertex of our triangle is sliding along a dashed line that’s parallel to the base. That means such triangles have the same height and therefore... the same area!
+
+So, to maximize the area, we need to maximize the height. The tallest the triangle can get is when the vertex is at the very top of the semicircle, giving us a height of R. So:
+
+Area = half times base times height = half times 2R times R which is equal to R^2.
+
+Boom. Easy. Mic drop?
+Not yet.
+
+Now let’s pull out the magical math trick that gives us a whole different (and cooler) solution.
+
+But before we do, we need to make a quick pit stop at Math Town to pick up two things:
+
+Arithmetic Mean (AM): Just the average of numbers. Simple stuff.
+
+Geometric Mean (GM): The nth root of the product of n numbers. Sounds scarier than it is.
+
+Then there’s this legendary inequality: AM greater than equal to GM for all positive real numbers. We’re not proving it here—let’s just pretend it descended from the mathematical heavens and move on.
+
+Here comes the juicy geometric fact:
+
+Any triangle inscribed in a semicircle, with its base as the diameter, is always a right-angled triangle.
+
+Why? Because circle magic. The angle subtended by the arc is always half of what it would be at the center. Trust the circle.
+
+So, now say the two sides of the triangle (excluding the diameter) are A and B. Because it’s a right triangle:
+
+A^2 + B^2 = 4R^2.
+
+Let’s apply AM GM inequality on A^2 and B^2:
+( A^2 + B^2 ) / 2  is greater than or equal to square root of (A^2 times B^2)
+
+Plug in that sum,
+
+And finally we get:
+AB is less than or equal to 2R^2
+
+That’s huge! Because Area = half A times B, we now know:
+
+We know the maximum value of AB is 2R^2, which means maximum area would be R^2.
+
+So whether you went the simple geometric route or flexed your inequality muscles with AM-GM, you end up at the same beautifully elegant answer: R^2.
+
+Math is crazy sometimes, huh?
+

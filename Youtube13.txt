@@ -1,0 +1,102 @@
+In this problem we are given a triangle ABC, with angle C = 30 degrees. A line AD is drawn such that D bisects the line segment BC into two equal halves and angle ADB equals 45 degrees.
+We need to find out the value of angle DAB.
+
+The key to such problems is a crucial construction and for this case we need to somehow draw an isosceles triangle to link the two line segments BD and CD which are of equal lengths.
+
+Lets draw a line ED with the point E on AC such that ED is of the same length as CD.
+
+Lets focus on the triangle EDC which is an isosceles triangle. This means the angle opposite to the equal side lengths are equal.
+
+This implies that the external angle EDB is equal to sum of the two opposite interior angles which = 2 times 30 degrees that is 60 degrees.
+
+
+Lets connect BE and focus on triangle BED. This is an isosceles triangle as well with the included angle equal to 60 degrees. This means triangle BED is an equilateral triangle. Thus the side BE also becomes equal to all the sides marked with double dashes.
+
+Lets draw AD back into the picture and focus on this triangle AED.
+
+We know that angle EDB equals 60 degrees and angle ADB equals 45 degrees. This means that angle EDA = 15 degrees.
+
+Now, the angle ADB can also be written as the sum of the two interior angles CAD and ACD which means angle CAD also equals 15 degrees.
+
+This implies that triangle AED is isosceles and the line segment AE also joins the club of double dashed lengths.
+
+Now lets focus on the triangle EAB which is yet another isosceles triangle. This would be the 4th one and hopefully the last one.
+We know that angle BED is 60 degrees as it belongs to the equilateral triangle. We also know that angle CED = 30 degrees (it belongs to the first isosceles triangle) which implies that angle AEB is a right angled.
+
+This means that triangle AEB is an Isosceles right angled triangle.
+Thus angle BAC equals 45 degrees.
+
+Now we obtained the value of angle CAD equals 15 degrees, which means angle DAB equals 30 degrees. And that's what we needed to find.
+
+
+=== chat gpt ===
+
+
+<speak>
+  In this problem, we’re given triangle A B C, with angle C equals 30 degrees.  
+  A line A D is drawn such that D is the midpoint of B C, and angle A D B equals 45 degrees.  
+  <break time="600ms"/>
+
+  We’re asked to find the value of angle D A B.  
+  <break time="400ms"/>
+
+  Now here’s the trick — these kinds of geometry problems often depend on a <emphasis level="moderate">clever construction</emphasis>.  
+  <break time="400ms"/>
+
+  Since D bisects B C, we know that B D equals C D.  
+  That suggests we try creating an <emphasis level="moderate">isosceles triangle</emphasis> using these equal lengths.  
+  <break time="400ms"/>
+
+  So, let’s draw a line E D with point E on side A C, such that E D equals C D.  
+  <break time="400ms"/>
+
+  Now, look at triangle E D C — it’s isosceles, so the base angles are equal.  
+  That means angle D E C and D C E are both 30 degrees,  
+  and angle E D B, the external angle, is their sum — 60 degrees.  
+  <break time="500ms"/>
+
+  Now connect B E, and focus on triangle B E D.  
+  Since E D, C D, and B D are all equal,  
+  and the included angle is 60 degrees, triangle B E D is equilateral!  
+  <break time="500ms"/>
+
+  That tells us all sides — B D, E D, and B E — are equal.  
+  <break time="400ms"/>
+
+  Now, bring back line A D and focus on triangle A E D.  
+  <break time="300ms"/>
+
+  We know angle E D B is 60 degrees,  
+  and angle A D B is 45 degrees,  
+  so angle E D A equals 15 degrees.  
+  <break time="500ms"/>
+
+  Since angle A D B also equals angle C A D plus angle A C D,  
+  that gives angle C A D equals 15 degrees as well.  
+  <break time="500ms"/>
+
+  That means triangle A E D is isosceles,  
+  and side A E also joins the group of equal sides.  
+  <break time="400ms"/>
+
+  Now look at triangle E A B.  
+  This is yet another isosceles triangle — and here’s the key:  
+  <break time="400ms"/>
+
+  Angle B E D is 60 degrees from the equilateral triangle,  
+  and angle C E D is 30 degrees from earlier,  
+  so angle A E B is 90 degrees — it’s a right angle.  
+  <break time="500ms"/>
+
+  So triangle A E B is an isosceles right triangle,  
+  which means angle B A C equals 45 degrees.  
+  <break time="400ms"/>
+
+  And since angle C A D equals 15 degrees,  
+  we subtract and get angle D A B equals 30 degrees —  
+  and that’s our final answer.  
+</speak>
+
+
+
+

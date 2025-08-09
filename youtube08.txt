@@ -1,0 +1,22 @@
+In this problem we are given a quarter circle and a small circle inside it, which touches the quarter circle.
+Now we are given a chord of the outer circle which touches the inner circle and whose length is 12.
+We need to find the area of the yellow region.
+
+When a little known is given in a problem we should always write the expression of what we need to find.
+
+Let's assume the Radius of the outer circle is capital R and the radius of the inner circle is small R.
+Now the area would be pi times capital R^2 over 4 minus pi times small R^2
+Which can we simplified further.
+
+Let's construct the line as shown and look at the triangle OAB
+
+We can use the Pythagoras theorem here to write this...
+
+Now we know that OA = capital R, OB = twice small R and AB is 12 given in the problem statement.
+
+Substituting the value we obtain capital R^2 minus 4 small R^2 = 12^2.
+
+Have we seen this somewhere?
+Yes we have... its the only unknown that we need to determine the area of the required region
+
+So the area is going to be 36 pi.

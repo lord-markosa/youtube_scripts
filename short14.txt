@@ -1,0 +1,48 @@
+In exam like SAT, 90% of the time you are not expected to remember the formula
+In this problem you are asked to find out the circumradius of a triangle whose base is 12 and opposite angle is 30 degrees
+Now, many of you would use the sine rule... and those who can't remember it will go into a self doubt.
+
+But do we really need the formula?
+
+This problem tests your knowledge of circles.
+
+First, how do we know the circumcircle is unique, well the angle subtended by any chord at the arc is always constant, so the path of the third point C will be on the same circle.
+
+Second, to get the relation between the radius and the base we need to construct the triangle AOB. Now angle subtended at the center is twice the angle subtended at the arc. Thus, angle AOB is 60 degrees.
+
+Now if you look carefully, in triangle AOB, Circumradius R = AO = BO.
+This means that triangle AOB is isosceles with the included angle 60 degrees, thus triangle AOB is actually an equilateral triangle
+
+Thus the Circumradius is nothing but 12.
+
+
+=== chat gpt ===
+
+In exams like the SAT, you’re almost <emphasis level="moderate">never</emphasis> expected to memorize formulas.
+
+  Take this one:
+
+  You’re given a triangle with base 12 and an opposite angle of 30 degrees.  
+  And you're asked to find its <emphasis level="moderate">circumradius</emphasis>.
+
+  Now, most students instantly think of the sine rule…  
+  and those who can't remember it start doubting themselves.
+
+  But here's the twist —  
+  this is a geometry problem, not a formula one.
+
+  First:  
+  Any triangle has a unique circumcircle, because the angle subtended by a chord at the arc is always constant.  
+  That means the third point lies on the same circle.
+
+  Now, draw triangle A O B, where O is the center.  
+  The angle at the center is twice the angle at the arc —  
+  so angle A O B is 60 degrees.
+
+  Since A O and B O are both radii, triangle A O B is isosceles…  
+  and with a 60 degree angle between them, it’s actually <emphasis level="moderate">equilateral</emphasis>.
+
+  So, the circumradius is just the side length —  
+  and that’s 12.
+
+

@@ -1,0 +1,108 @@
+Given a triangle ABC, the median AD forms an angle of 45 degrees with the base BC. Angle B is three times angle C. Lets assume C to be x, then B becomes 3x. We need to find out the value of x.
+
+The crusial construction here is to take a point E on AC such that angle EBC equals angle ECB which equals x. Thus angle B gets divided into x and 2x. Also triangle EBC is isosceles.
+
+Let's look at the triangles EBD and and triangle ECB,
+BE is common to them
+BD = CD as AD is the median
+EB = EC as triangle EBC is isosceles.
+
+This means these two triangles are congruent by SSS criteria and angle BDE = angle CDE.
+As BC is a straight line, the sum of these two must be 180 degrees. This means that each is 90 degrees. Thus ED is perpendicular to BC.
+This means that angle ADE is 45 degrees. Thus AD is the angle bisector of angle BDE.
+
+In triangle ABE, we can observe that angle ABE = 2x, and angle AEB which is the sum of the opposite interior angles of triangle BCE, is also 2x. This means triangle ABE is isosceles. This means the perpendicular bisector of BE passes through A.
+
+Now lets look at an interesting theorem:
+
+Angle bisector and the perpendicular bisector of the side opposite to the angle meets at the circumcircle of the triangle.
+
+Lets try to prove it.
+
+Given this new triangle ABC, Let's say the perpendicular bisector of the side BC meets it's circumcircle at Q, Lets join BQ and CQ. Let's also join AQ.
+
+Now triangle QCB is isosceles as PQ is the perpendicular bisector of BC. Thus angle QCB equals angle QBC.
+Let angle QCB be x, interesting thing to observe is angle QAB, angle subtended at the arc by the same chord.
+Angle QBC would also be x, this means angle CAQ would be x as well. This means that AQ is the angle bisector of angle A. This the point where the angle bisector and the perpendicular bisector of the opposite side meet lies on the circumcircle.
+
+Let's get back to our problem.
+
+We see that perpendicular bisector of the side BE of triangle BDE passes though A and the angle bisector of the opposite angle passes through A, Thus the point A must lie on the circumcircle of triangle BDE.
+
+This quadrilateral ABDE must be cyclic.
+
+Thus angle BAE + angle BDE must sum upto 180 degrees. This means angle BAE is 90 degrees. In triangle ABC, the sum of all angles are equal to 180 degrees. This means that x = 22.5 degrees.
+And there we go...
+
+=== CHAT GPT ====
+<p>
+    Consider triangle <say-as interpret-as="characters">ABC</say-as>.
+    Let the perpendicular bisector of <say-as interpret-as="characters">BC</say-as> meet the circumcircle at point <say-as interpret-as="characters">Q</say-as>.
+    Join <say-as interpret-as="characters">BQ</say-as> and <say-as interpret-as="characters">CQ</say-as>.
+    Let's also join <say-as interpret-as="characters">AQ</say-as>.
+  </p>
+
+  <break time="500ms"/>
+
+  <p>
+    Now, since <say-as interpret-as="characters">Q</say-as> lies on the perpendicular bisector of <say-as interpret-as="characters">BC</say-as>, triangle <say-as interpret-as="characters">QBC</say-as> is <emphasis level="moderate">isosceles</emphasis>.    
+  </p>
+
+  <break time="400ms"/>
+  
+  <p>
+    Let angle <say-as interpret-as="characters">QCB</say-as> be <say-as interpret-as="characters">y</say-as>.
+    Now observe chord <say-as interpret-as="characters">BQ</say-as>.  
+    Angle subtended at <say-as interpret-as="characters">A</say-as> equals angle subtended at <say-as interpret-as="characters">C</say-as> by this chord. 
+    So angle <say-as interpret-as="characters">QAB</say-as> equals <say-as interpret-as="characters">y</say-as>.
+  </p>
+
+  <break time="300ms"/>
+
+  <p>
+    Similarly, angle <say-as interpret-as="characters">QAC</say-as> also equals <say-as interpret-as="characters">y</say-as>.
+  </p>
+
+  <break time="400ms"/>
+
+  <p>
+    This means that <say-as interpret-as="characters">AQ</say-as> is the <emphasis level="moderate">angle bisector</emphasis> of angle <say-as interpret-as="characters">A</say-as>.
+  </p>
+
+  <p>
+    Hence, it intersects the <emphasis level="moderate">perpendicular bisector</emphasis> of the opposite side <say-as interpret-as="characters">BC</say-as> at the<emphasis level="strong">circumcircle</emphasis>.
+  </p>
+
+  <break time="600ms"/>
+
+  <p>
+    <emphasis level="strong">This is a powerful result.</emphasis>
+  </p>
+
+
+  <p>
+    So in our case, point <say-as interpret-as="characters">A</say-as> must lie on the circumcircle of triangle <say-as interpret-as="characters">BDE</say-as>.
+  </p>
+
+  <p>
+    That means quadrilateral <say-as interpret-as="characters">ABDE</say-as> is <emphasis level="moderate">cyclic</emphasis>.
+  </p>
+
+  <p>
+    So angle <say-as interpret-as="characters">BAE</say-as> plus angle <say-as interpret-as="characters">BDE</say-as> must be 180 degrees.
+  </p>
+
+  <p>
+    Since angle <say-as interpret-as="characters">BDE</say-as> is 90 degrees, angle <say-as interpret-as="characters">BAE</say-as> must also be 90 degrees.
+  </p>
+
+  <break time="500ms"/>
+
+  <p>
+    Finally, in triangle <say-as interpret-as="characters">ABC</say-as>, the sum of all angles is 180 degrees.
+  </p>
+
+  <p>
+    Which leads to the final answer:
+    <emphasis level="strong"><say-as interpret-as="characters">x</say-as> equals 22.5 degrees.</emphasis>
+  </p>

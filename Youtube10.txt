@@ -1,0 +1,117 @@
+Hey Everyone!
+
+In this problem we are given a triangle ABC such that angle A = 48 degrees. X is a point on the base such that BX equals AC and angle ACX = 18 degrees. Now, we are asked to find out the value of angle B.
+
+These kind of problems mostly revolve around a crucial construction, once that is figured out everything becomes easy peazy.
+Specific to this problem or problems with similar patter we need to construct a line such that BC is a part of an isosceles triangle and can work out our way through the result we obtain.
+
+We will understand more when we solve this problem.
+
+Here, lets construct a line BP such that P lies on CX and BX equals BP. Now, it might be the case that P lies outside triangle ABC when we extend CX, in that case the proof would again follow similar path.
+
+For now, let's go ahead with this.
+
+Consider the triangle PBX.
+
+the angle PXB can be obtained as the sum of the two opposite interior angles ACX and CAX which would be 66 degrees.
+
+Since the two sides of triangle PBX is equal it's an isosceles triangle, which means angle XPB would be 66 degrees as well.
+
+This implies angle PBX equals 48 degrees.
+
+Wait a minute!!
+
+This means if we extend the line BP to meet AC at C it will form an isosceles triangle ZAB since the angles on the base AB are both 48 degrees. 
+
+This seems like a mismatch...
+Doesn't it?
+
+Let's find out.
+
+We can write AZ = BZ
+
+AZ can be written as AC - CZ and BZ can be written as BP plus PZ. PZ and ZC are the lines marked in red.
+
+Thus we can write the following.
+
+Now, AC = BX = BP.
+
+This means that the sum of CZ + PZ  = 0. That's interesting because both these are lengths which are non-negative quantities.
+This relation holds true only when CZ = PZ = 0.
+This implies Z P and C all these coincides and thus angle CBA would be same as angle PBX that is 48 degrees. Thus x is nothing but 48 degrees.
+
+
+==== chat GPT ====
+
+
+
+<speak>
+  Hey everyone!
+
+  We’re given a triangle <say-as interpret-as="characters">ABC</say-as> with angle A equals 48 degrees.  
+  There’s a point X on the base such that <say-as interpret-as="characters">BX</say-as> equals <say-as interpret-as="characters">AC</say-as>,  
+  and angle <say-as interpret-as="characters">ACX</say-as> is 18 degrees.  
+  We need to find the value of angle B.
+
+  Now, this kind of geometry problem usually hinges on a clever construction.  
+  Once that’s cracked, the rest becomes easy peasy.
+
+  In problems like this, we often try to form an isosceles triangle using line segments —  
+  and that's exactly what we’ll do.
+
+  Let’s draw a line <say-as interpret-as="characters">BP</say-as>, such that P lies on line <say-as interpret-as="characters">CX</say-as>,  
+  and <say-as interpret-as="characters">BP</say-as> equals <say-as interpret-as="characters">BX</say-as>.  
+  It’s possible that point P lies outside triangle <say-as interpret-as="characters">ABC</say-as> —  
+  no worries, the logic still works.
+
+  Now, focus on triangle <say-as interpret-as="characters">PBX</say-as>.
+
+  Angle <say-as interpret-as="characters">PXB</say-as> is the sum of angle <say-as interpret-as="characters">ACX</say-as> and angle <say-as interpret-as="characters">CAX</say-as>,  
+  that’s 18 plus 48, which gives us 66 degrees.
+
+  Since <say-as interpret-as="characters">BP</say-as> equals <say-as interpret-as="characters">BX</say-as>, triangle <say-as interpret-as="characters">PBX</say-as> is isosceles.  
+  So, angle <say-as interpret-as="characters">XPB</say-as> is also 66 degrees.  
+  That means angle <say-as interpret-as="characters">PBX</say-as> is 48 degrees.
+
+  Wait a second...
+
+  That’s the same as angle A!
+
+  Now, if we extend <say-as interpret-as="characters">BP</say-as> to meet <say-as interpret-as="characters">AC</say-as> at a point Z,  
+  then triangle <say-as interpret-as="characters">ZAB</say-as> becomes isosceles,  
+  with both base angles equal to 48 degrees.
+
+  Looks a bit suspicious, doesn’t it?
+
+  Let’s verify.
+
+  We can say <say-as interpret-as="characters">AZ</say-as> equals <say-as interpret-as="characters">BZ</say-as>.
+
+  Now, <say-as interpret-as="characters">AZ</say-as> is <say-as interpret-as="characters">AC</say-as> minus <say-as interpret-as="characters">CZ</say-as>,  
+  and <say-as interpret-as="characters">BZ</say-as> is <say-as interpret-as="characters">BP</say-as> plus <say-as interpret-as="characters">PZ</say-as>.
+
+  So we get:  
+  <say-as interpret-as="characters">AC</say-as> minus <say-as interpret-as="characters">CZ</say-as> equals <say-as interpret-as="characters">BP</say-as> plus <say-as interpret-as="characters">PZ</say-as>.
+
+  But since <say-as interpret-as="characters">AC</say-as>, <say-as interpret-as="characters">BX</say-as> and <say-as interpret-as="characters">BP</say-as> are equal,  
+  that means <say-as interpret-as="characters">CZ</say-as> plus <say-as interpret-as="characters">PZ</say-as> equals zero.
+
+  Which can only happen if both <say-as interpret-as="characters">CZ</say-as> and <say-as interpret-as="characters">PZ</say-as> are zero —  
+  meaning points C, Z, and P are the same!
+
+  So finally, angle <say-as interpret-as="characters">CBA</say-as> equals angle <say-as interpret-as="characters">PBX</say-as>,  
+  which is 48 degrees.
+
+  And that’s our answer!
+</speak>
+
+
+corrections:
+
+The sum of opposite interior angles of the triangle equals the exterior angle.
+
+Using the properties of isosceles triangle.
+
+That is all the line segments marked with double dashes are equal.
+
+The quantities marked in red when subtracted and added to the sides AC and BP results in AZ and BZ respectively.

@@ -1,0 +1,45 @@
+90 percent of the time we miss the crucial information that lies straight in front of us.
+
+In this problem we are given the following triangle inscribed in a semicircle and we need to find which of the following angles are 30 degrees.
+
+In triangle OAC, we can see that perpendicular from C bisects the base AO, this implies
+that it is an isosceles triangle. which means AC = OC, and x = y
+
+But OC = OA = radius.
+This means it is an equilateral triangle.
+
+Thus x = y = 30 degrees.
+
+In triangle OCB, OC = OB = Radius, which means triangle OCB is an isosceles triangle with z = w
+Also z + y equals the opposite exterior angle COA which equals 60 degrees.
+
+Thus z = w = 30 degrees.
+
+Hence all of them are 30 degrees.
+
+=== chat gpt ===
+
+
+<speak>
+90% of the time, we miss the obvious thing hiding in the plain sight.
+
+In this problem, a triangle is inscribed in a semicircle, and we’re asked: which angles are 30 degrees?
+
+Let’s look at triangle <say-as interpret-as="characters">OAC</say-as>.
+The perpendicular from point <say-as interpret-as="characters">C</say-as> bisects base <say-as interpret-as="characters">AO</say-as>, making it isosceles.
+So, <say-as interpret-as="characters">AC</say-as> equals <say-as interpret-as="characters">OC</say-as> which equals the radius, also angle X equals angle Y.
+
+That makes triangle <say-as interpret-as="characters">OAC</say-as> equilateral.
+So, <say-as interpret-as="characters">x</say-as> equals <say-as interpret-as="characters">y</say-as> equals 30 degrees.
+
+Now look at triangle <say-as interpret-as="characters">OCB</say-as>.
+<say-as interpret-as="characters">OC</say-as> equals <say-as interpret-as="characters">OB</say-as>, so it's isosceles.
+That means angle Z equals angle W.
+
+The exterior angle <say-as interpret-as="characters">AOC</say-as> is 60 degrees, which equals Z + W.
+Thus, Z = W = 30 degrees.
+
+Hence, all the angles are 30 degrees.
+
+Its option D.
+</speak>

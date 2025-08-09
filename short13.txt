@@ -1,0 +1,57 @@
+More than 90% of the people made the same mistake in this problem. (change this hook)
+
+The answer would have been none of these if we were asked to factorize x^2 + 1 which equals (x+2i) times (x minus 2i)
+But is it same for x^4 + 4?
+
+Well it turns out to be no
+
+we can actually factorize x^4 + 4 by adding and subtracting 4x^2
+the first three terms is nothing but the square of (x^2 + 2) and the forth term is square of 2x
+Thus we get something of the form A^2 - B^2 which can be factorized as shown...
+And look we have x^2 + 2x + 2 in option C.
+
+=== chat gpt ===
+
+
+  This question <emphasis level="moderate">looks easy</emphasis> — until it <emphasis level="strong">isn’t</emphasis>.
+  Over <say-as interpret-as="number">90</say-as> percent of people fall into the same trap.
+  <break time="600ms"/>
+  
+  We’re asked to factorize:
+  <emphasis level="moderate">x^4 + 4</emphasis>
+  <break time="400ms"/>
+  
+  If we were asked to factorize x^2 + 4, then the answer would be:
+  (x + 2i) times (x minus 2i)
+
+  But here’s the catch:
+  <emphasis level="moderate">x^2+4</emphasis> is different
+  <break time="600ms"/>
+  
+  Let’s try something clever.
+  <break time="200ms"/>
+  We <emphasis>add and subtract</emphasis> 4x^2
+  <break time="400ms"/>
+  
+  Now, this is nothing but (x^2 + 2)^2 square
+  <break time="300ms"/>
+  
+  And the last term?
+  That’s 2x squared
+  <break time="300ms"/>
+  
+  Now it’s of the form:
+  <emphasis>A squared minus B squared</emphasis>
+  <break time="300ms"/>
+  which factors as (A minus B) times (A plus B)
+  <break time="500ms"/>
+  
+  So we write:
+  <break time="200ms"/>
+  (x^2 minus 2x + 2) times (x^2 + 2x + 2)
+  <break time="300ms"/>
+  
+
+  And look!
+  <break time="200ms"/>
+  Option C contains this.

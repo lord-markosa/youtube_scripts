@@ -1,0 +1,15 @@
+90% of the students take more than 15 seconds to answer this question
+First get the coefficients and root relationship
+obtain coefficients for the new root and substitute
+sum of the roots is going to be minus b by c
+product is going to be a by c
+
+Lets focus on the changed roots.
+We observe a pattern. The new roots are of the form 1 over x where x is the old root.
+Let y be 1 over x which implies x is 1 over y.
+Lets put it in place of x in the equation. Thus we get a new equation in terms of y where y is 1 over x.
+Lets replace y with x. 
+There you go.
+Its option C.
+
+   

@@ -1,0 +1,15 @@
+This giant looking problem hides a tiny secret that most people miss.
+
+Here we are not actually concerned with the value of N, we just want to know the maximum value of k such that this is an integer.
+
+Now one twenty five is nothing but 5 cubed, so if we are able to find the maximum power of 5 in N, we are done!
+
+Power of 5 would arise from the terms 5 to the power 5, 10 to the power 10 and so on till 30.
+
+Now, 15^15 would be 3^15 times 5^15. We are concerned only with powers of 5. So we can write...
+
+So the max power of 5 would be sum of 5, 10, 15 till 30 since exponents get added up when the same bases are multiplied.
+
+Notice that 25 is twice since it is 5^2.
+
+Thus the maximum value of k would be 43. That's option C.
